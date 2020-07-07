@@ -1,3 +1,30 @@
+*{
+  margin: 0;
+}
+body{
+  background-color: #355075;
+}
+nav#topbar{
+  padding: 20px;
+}
+nav#topbar ul{
+  list-style: none;
+  text-align: center;
+}
+nav#topbar li {
+  display: inline-block;
+  margin: 0px 25px;
+}
+nav#topbar a{
+  text-decoration: none;
+  font-family: Arial;
+  font-size: 14pt;
+  color: white;
+}
+img{
+  width: 100%;
+  height: auto;
+}
 .sidenav {
   height: 100%;
   width: 0;
@@ -13,7 +40,7 @@
 .sidenav a {
   padding: 8px 8px 8px 32px;
   text-decoration: none;
-  font-size: 25px;
+  font-size: 20px;
   color: #818181;
   display: block;
   transition: 0.3s;
@@ -24,7 +51,7 @@
 .sidenav .closebtn {
   position: absolute;
   top: 0;
-  right: 25px;
+  right: 15px;
   font-size: 36px;
   margin-left: 50px;
 }
