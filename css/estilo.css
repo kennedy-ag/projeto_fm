@@ -6,6 +6,7 @@ body{
 }
 nav#topbar{
   padding: 20px;
+  box-shadow: 0px 20px 25px 0px rgba(0,0,0,0.4);
 }
 nav#topbar ul{
   list-style: none;
@@ -18,8 +19,17 @@ nav#topbar li {
 nav#topbar a{
   text-decoration: none;
   font-family: Arial;
-  font-size: 14pt;
+  font-size: 12pt;
   color: white;
+  background-color: #3550AA;
+  border-radius: 10px;
+  padding: 15px;
+}
+nav#topbar select{
+  font-family: Arial;
+  font-size: 12pt;
+  padding: 5px 20px;
+  border-radius: 10px;
 }
 img{
   width: 100%;
