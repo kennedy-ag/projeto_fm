@@ -1,12 +1,10 @@
 *{
   margin: 0;
 }
-body{
-  background-color: #355075;
-}
 nav#topbar{
   padding: 20px;
   box-shadow: 0px 20px 25px 0px rgba(0,0,0,0.4);
+  background-color: #343a40;
 }
 nav#topbar ul{
   list-style: none;
@@ -14,22 +12,22 @@ nav#topbar ul{
 }
 nav#topbar li {
   display: inline-block;
-  margin: 0px 25px;
 }
 nav#topbar a{
   text-decoration: none;
   font-family: Arial;
   font-size: 12pt;
   color: white;
-  background-color: #3550AA;
   border-radius: 10px;
-  padding: 15px;
+  padding: 10px;
+  font-weight: bolder;
 }
 nav#topbar select{
   font-family: Arial;
   font-size: 12pt;
   padding: 5px 20px;
   border-radius: 10px;
+  width: 250px;
 }
 img{
   width: 100%;

@@ -15,18 +15,48 @@
 					<a id="menu" href="#" onclick="openNav()">Menu</a>
 				</li>
 				<li>
-					<a href="#">Início</a>
+					<a href="#" onclick="menuSelect('opt1')">Início</a>
 				</li>
 				<li>
-					<a href="#">&lt; Anterior</a>
+					<a href="#" onclick="voltaSlide()">&lt;</a>
 				</li>
 				<li>
-					<select>
-						<option>Estrutura do curso</option>
+					<select id="select">
+						<option id="opt1">Estrutura do curso</option>
+						<option id="opt2">Objetivos do curso</option>
+						<option id="opt3">CIBio FM UnB</option>
+						<option id="opt4">Quem pode desenvolver atividade envolvendo OGM?</option>
+						<option id="opt5">Composição CIBio-FM UnB</option>
+						<option id="opt6">Mas… o que é OGM e derivado de OGM?</option>
+						<option id="opt7">Trabalho com Organismos Geneticamente Modificados</option>
+						<option id="opt8">Organograma dos órgãos envolvidos no monitoramento das atividades envolvendo OGM no Brasil</option>
+						<option id="opt9">Na UnB, há mais de uma CIBio</option>
+						<option id="opt10">Papel da CIBio-FM CQB 0505/2020</option>
+						<option id="opt11">Comissão Técnica Nacional de Biossegurança (CTNBio)</option>
+						<option id="opt12">Órgãos e Entidades de Registro e Fiscalização (OERF)</option>
+						<option id="opt13">Competência dos OERF</option>
+						<option id="opt14">Conselho Nacional de Biossegurança (CNBS)</option>
+						<option id="opt15">Exemplos de infrações administrativas</option>
+						<option id="opt16">Responsabilidades</option>
+						<option id="opt17">Penalidades</option>
+						<option id="opt18">Gravidade x Multa</option>
+						<option id="opt19">Elementos de fiscalização de laboratórios de pesquisa</option>
+						<option id="opt20">Análise dos documentos</option>
+						<option id="opt21">Objetivo da fiscalização</option>
+						<option id="opt22">Definição de Biossegurança</option>
+						<option id="opt23">Sistema de Biossegurança Brasileiro</option>
+						<option id="opt24">Trabalho em contenção com material biológico</option>
+						<option id="opt25">Níveis de Biossegurança</option>
+						<option id="opt26">Cabines de Segurança Biológica</option>
+						<option id="opt27">CSB Classe II A (A1)</option>
+						<option id="opt28">CSB Classe II B</option>
+						<option id="opt29">Procedimentos emergenciais</option>
+						<option id="opt30">Em caso de acidentes</option>
+						<option id="opt31">Literatura útil</option>
 					</select>
 				</li>
 				<li>
-					<a href="#">Próximo &gt;</a>
+					<a href="#" onclick="avancaSlide()">&gt;</a>
 				</li>
 			</ul>
 		</nav>
@@ -36,37 +66,37 @@
 
 		<div id="mySidenav" class="sidenav">
 		  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-		  <a href="#">&#9900; Estrutura do curso</a>
-		  <a href="#">&#9900; Objetivos do curso</a>
-		  <a href="#">&#9900; CIBio FM UnB</a>
-		  <a href="#">&#9900; Quem pode desenvolver atividade envolvendo OGM?</a>
-		  <a href="#">&#9900; Composição CIBio-FM UnB</a>
-		  <a href="#">&#9900; Mas… o que é OGM e derivado de OGM?</a>
-		  <a href="#">&#9900; Trabalho com Organismos Geneticamente Modificados</a>
-		  <a href="#">&#9900; Organograma dos órgãos envolvidos no monitoramento das atividades envolvendo OGM no Brasil</a>
-		  <a href="#">&#9900; Na UnB, há mais de uma CIBio</a>
-		  <a href="#">&#9900; Papel da CIBio-FM CQB 0505/2020</a>
-		  <a href="#">&#9900; Comissão Técnica Nacional de Biossegurança (CTNBio)</a>
-		  <a href="#">&#9900; Órgãos e Entidades de Registro e Fiscalização (OERF)</a>
-		  <a href="#">&#9900; Competência dos OERF</a>
-		  <a href="#">&#9900; Conselho Nacional de Biossegurança (CNBS)</a>
-		  <a href="#">&#9900; Exemplos de infrações administrativas</a>
-		  <a href="#">&#9900; Responsabilidades</a>
-		  <a href="#">&#9900; Penalidades</a>
-		  <a href="#">&#9900; Gravidade x Multa</a>
-		  <a href="#">&#9900; Elementos de fiscalização de laboratórios de pesquisa</a>
-		  <a href="#">&#9900; Análise dos documentos</a>
-		  <a href="#">&#9900; Objetivo da fiscalização</a>
-		  <a href="#">&#9900; Definição de Biossegurança</a>
-		  <a href="#">&#9900; Sistema de Biossegurança Brasileiro</a>
-		  <a href="#">&#9900; Trabalho em contenção com material biológico</a>
-		  <a href="#">&#9900; Níveis de Biossegurança</a>
-		  <a href="#">&#9900; Cabines de Segurança Biológica</a>
-		  <a href="#">&#9900; CSB Classe II A (A1)</a>
-		  <a href="#">&#9900; CSB Classe II B</a>
-		  <a href="#">&#9900; Procedimentos emergenciais </a>
-		  <a href="#">&#9900; Em caso de acidentes</a>
-		  <a href="#">&#9900; Literatura útil</a>
+		  <a href="#" onclick="menuSelect('opt1')">&#9900; Estrutura do curso</a>
+		  <a href="#" onclick="menuSelect('opt2')">&#9900; Objetivos do curso</a>
+		  <a href="#" onclick="menuSelect('opt3')">&#9900; CIBio FM UnB</a>
+		  <a href="#" onclick="menuSelect('opt4')">&#9900; Quem pode desenvolver atividade envolvendo OGM?</a>
+		  <a href="#" onclick="menuSelect('opt5')">&#9900; Composição CIBio-FM UnB</a>
+		  <a href="#" onclick="menuSelect('opt6')">&#9900; Mas… o que é OGM e derivado de OGM?</a>
+		  <a href="#" onclick="menuSelect('opt7')">&#9900; Trabalho com Organismos Geneticamente Modificados</a>
+		  <a href="#" onclick="menuSelect('opt8')">&#9900; Organograma dos órgãos envolvidos no monitoramento das atividades envolvendo OGM no Brasil</a>
+		  <a href="#" onclick="menuSelect('opt9')">&#9900; Na UnB, há mais de uma CIBio</a>
+		  <a href="#" onclick="menuSelect('opt10')">&#9900; Papel da CIBio-FM CQB 0505/2020</a>
+		  <a href="#" onclick="menuSelect('opt11')">&#9900; Comissão Técnica Nacional de Biossegurança (CTNBio)</a>
+		  <a href="#" onclick="menuSelect('opt12')">&#9900; Órgãos e Entidades de Registro e Fiscalização (OERF)</a>
+		  <a href="#" onclick="menuSelect('opt13')">&#9900; Competência dos OERF</a>
+		  <a href="#" onclick="menuSelect('opt14')">&#9900; Conselho Nacional de Biossegurança (CNBS)</a>
+		  <a href="#" onclick="menuSelect('opt15')">&#9900; Exemplos de infrações administrativas</a>
+		  <a href="#" onclick="menuSelect('opt16')">&#9900; Responsabilidades</a>
+		  <a href="#" onclick="menuSelect('opt17')">&#9900; Penalidades</a>
+		  <a href="#" onclick="menuSelect('opt18')">&#9900; Gravidade x Multa</a>
+		  <a href="#" onclick="menuSelect('opt19')">&#9900; Elementos de fiscalização de laboratórios de pesquisa</a>
+		  <a href="#" onclick="menuSelect('opt20')">&#9900; Análise dos documentos</a>
+		  <a href="#" onclick="menuSelect('opt21')">&#9900; Objetivo da fiscalização</a>
+		  <a href="#" onclick="menuSelect('opt22')">&#9900; Definição de Biossegurança</a>
+		  <a href="#" onclick="menuSelect('opt23')">&#9900; Sistema de Biossegurança Brasileiro</a>
+		  <a href="#" onclick="menuSelect('opt24')">&#9900; Trabalho em contenção com material biológico</a>
+		  <a href="#" onclick="menuSelect('opt25')">&#9900; Níveis de Biossegurança</a>
+		  <a href="#" onclick="menuSelect('opt26')">&#9900; Cabines de Segurança Biológica</a>
+		  <a href="#" onclick="menuSelect('opt27')">&#9900; CSB Classe II A (A1)</a>
+		  <a href="#" onclick="menuSelect('opt28')">&#9900; CSB Classe II B</a>
+		  <a href="#" onclick="menuSelect('opt29')">&#9900; Procedimentos emergenciais</a>
+		  <a href="#" onclick="menuSelect('opt30')">&#9900; Em caso de acidentes</a>
+		  <a href="#" onclick="menuSelect('opt31')">&#9900; Literatura útil</a>
 		  <a href="#"></a>
 		  <a href="#"></a>
 		  <a href="#"></a>
