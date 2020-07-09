@@ -101,3 +101,23 @@ div#conteudo p{
   padding: 5px;
   line-height: 200%;
 }
+div.content{
+  padding: 20px;
+  background-color: #343a40;
+  border-radius: 10px;
+  width: 70%;
+  margin: 20px auto;
+  display: none;
+}
+div.content p{
+  color: white;
+  font-family: Calibri, Arial;
+  font-size: 14pt;
+  padding: 5px;
+  line-height: 200%;
+}
+div.content h1{
+  color: white;
+  font-family: Calibri, Arial;
+  font-size: 24pt;
+  padding: 5px;

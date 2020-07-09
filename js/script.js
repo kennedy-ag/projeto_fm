@@ -18,6 +18,9 @@ function avancaSlide() {
 		opt.selected = 1;
 		slide_ativo = parse;
 	}
+	let a = document.getElementById('conteudo');
+	let b = document.getElementById('conteudo1');
+	a.innerHTML = b.innerHTML;
 }
 function voltaSlide() {
 	let parse = parseInt(slide_ativo, 10)-1;
