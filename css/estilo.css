@@ -32,6 +32,10 @@ nav#topbar select{
   padding: 5px 20px;
   border-radius: 10px;
   width: 250px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  text-indent: 1px;
+  text-overflow: '';
 }
 img{
   width: 100%;

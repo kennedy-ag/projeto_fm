@@ -10,6 +10,9 @@ function menuSelect(tgt) {
 	slide_ativo = tgt.substring(3, 6);
 	let option = document.getElementById(tgt);
 	option.selected = 1;
+	let a = document.getElementById('conteudo');
+	let b = document.getElementById('conteudo'+slide_ativo);
+	a.innerHTML = b.innerHTML;
 }
 function avancaSlide() {
 	let parse = parseInt(slide_ativo, 10)+1;
@@ -19,7 +22,7 @@ function avancaSlide() {
 		slide_ativo = parse;
 	}
 	let a = document.getElementById('conteudo');
-	let b = document.getElementById('conteudo1');
+	let b = document.getElementById('conteudo'+slide_ativo);
 	a.innerHTML = b.innerHTML;
 }
 function voltaSlide() {
@@ -28,5 +31,16 @@ function voltaSlide() {
 		let opt = document.getElementById('opt'+parse);
 		opt.selected = 1;
 		slide_ativo = parse;
+		let a = document.getElementById('conteudo');
+		let b = document.getElementById('conteudo'+slide_ativo);
+		a.innerHTML = b.innerHTML;
 	}
+}
+function voltarAoInicio(tgt){
+	slide_ativo = tgt.substring(3, 6);
+	let option = document.getElementById(tgt);
+	option.selected = 1;
+	let a = document.getElementById('conteudo');
+	let b = document.getElementById('conteudo1');
+	a.innerHTML = b.innerHTML;
 }
