@@ -91,19 +91,7 @@ div#conteudo{
   width: 70%;
   position: absolute;
   top: 25%;
-}
-div#conteudo h1{
-  color: white;
-  font-family: Calibri, Arial;
-  font-size: 24pt;
-  padding: 5px;
-}
-div#conteudo p{
-  color: white;
-  font-family: Calibri, Arial;
-  font-size: 14pt;
-  padding: 5px;
-  line-height: 200%;
+  opacity: 0.95;
 }
 div.content{
   padding: 20px;
@@ -113,15 +101,26 @@ div.content{
   margin: 20px auto;
   display: none;
 }
-div.content p{
+div.content p, div#conteudo p{
   color: white;
   font-family: Calibri, Arial;
   font-size: 14pt;
   padding: 5px;
   line-height: 200%;
+  text-align: center;
 }
-div.content h1{
+div.content h1, div#conteudo h1{
   color: white;
   font-family: Calibri, Arial;
   font-size: 24pt;
   padding: 5px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+div.content img, div#conteudo img{
+  width: 30%;
+  height: auto;
+  position: relative;
+  left: 35%;
+  margin: 20px auto;
+}
